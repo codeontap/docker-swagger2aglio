@@ -6,4 +6,6 @@ RUN mkdir /app/
 RUN mkdir /app/indir/
 RUN mkdir /app/outdir/
 
-#No entrypoint - invoke swagger2aglio directly
+COPY . /app
+
+#No entrypoint - invoke required utility directly
