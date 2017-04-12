@@ -3,7 +3,9 @@ FROM node:6
 RUN npm install -g swagger2aglio && \
     npm install -g jayschema && \
     npm install -g swagger-cli && \
-    npm install -g swagger-tools
+    npm install -g swagger-tools && \
+    npm install -g ajv-cli && \
+    npm install -g swagger-schema-official
 
 RUN mkdir /app/
 RUN mkdir /app/indir/
