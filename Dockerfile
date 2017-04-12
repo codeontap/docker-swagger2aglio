@@ -1,6 +1,8 @@
 FROM node:6
 
-RUN npm install swagger2aglio jayschema swagger-schema-official
+RUN npm install -g swagger2aglio && \
+    npm install -g jayschema && \
+    npm install -g swagger-schema-official
 
 RUN mkdir /app/
 RUN mkdir /app/indir/
