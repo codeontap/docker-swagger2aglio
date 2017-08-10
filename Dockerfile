@@ -6,7 +6,8 @@ RUN npm install -g swagger2aglio && \
     npm install -g swagger-tools && \
     npm install -g ajv-cli && \
     npm install -g swagger-schema-official && \
-    npm install -g json-refs
+    npm install -g json-refs && \
+    npm install -g swagger-manage-extensions
 
 RUN mkdir /app/
 RUN mkdir /app/indir/
