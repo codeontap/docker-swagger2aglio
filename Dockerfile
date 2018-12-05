@@ -1,6 +1,6 @@
 FROM node:6
 
-RUN npm install -g  \
+RUN npm install -g \
     swagger2aglio \
     jayschema \
     swagger-cli \
@@ -14,7 +14,5 @@ RUN npm install -g  \
 RUN mkdir /app/
 RUN mkdir /app/indir/
 RUN mkdir /app/outdir/
-
-COPY . /app
 
 #No entrypoint - invoke required utility directly
