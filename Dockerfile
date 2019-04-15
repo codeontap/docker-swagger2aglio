@@ -9,7 +9,8 @@ RUN npm install -g \
     swagger-schema-official \
     json-refs \
     swagger-manage-extensions \
-    remark-cli
+    remark-cli \
+    state-machine-cat
 
 RUN mkdir /app/
 RUN mkdir /app/indir/
